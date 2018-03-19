@@ -1,9 +1,12 @@
-var numOfCustomers = 5
+function one() {
+		var a = 1;
+		console.log( a );
+}
 
-do {
-		console.log( "How may I help you?" );
-		
-		numOfCustomers = numOfCustomers - 1
-} while (numOfCustomers > 0;
+function two() {
+		var a = 2;
+		console.log( a );
+}
 
-console.log( "Time for a beer!" );
+one();
+two();
